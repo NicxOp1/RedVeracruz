@@ -22,10 +22,9 @@ main{
 
 .bg{
     position: absolute;
-    object-fit: fill;
     width: 100vw;
     height: 100vh;
-    background-attachment: fixed;
+
 }
 
 
@@ -148,7 +147,12 @@ main{
     opacity: 100;
     margin-left: 4rem;
 }
-
+@media (min-width: 2560px) {
+    /* CSS code for resolution 1440 */
+    header{
+        display: none;
+    }
+}
 @media (min-width: 1440px) {
     /* CSS code for resolution 1440 */
     header{
